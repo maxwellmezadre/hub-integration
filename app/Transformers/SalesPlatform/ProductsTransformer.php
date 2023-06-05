@@ -2,7 +2,7 @@
 
 namespace App\Transformers\SalesPlatform;
 
-interface ProductTransformer
+interface ProductsTransformer
 {
     public function transform(array $product, array $variations): array;
 }
